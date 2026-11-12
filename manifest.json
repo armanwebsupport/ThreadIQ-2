@@ -1,0 +1,3 @@
+{ "name": "ThreadIQ", "short_name": "ThreadIQ", "start_url": "index.html", "display": "standalone",
+  "background_color": "#040b1d", "theme_color": "#040b1d",
+  "icons": [{ "src": "assets/logo.png", "sizes": "512x512", "type": "image/png" }] }
