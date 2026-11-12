@@ -1,0 +1,5 @@
+input,select,textarea{width:100%;background:#071333;border:1px solid var(--line);color:#fff;border-radius:10px;padding:12px;margin-bottom:10px;font-size:15px}
+label{font-size:13px;color:var(--mut);display:block;margin-bottom:4px}
+.btn{width:100%;background:linear-gradient(90deg,var(--blue),var(--cy));border:0;color:#fff;font-weight:700;font-size:16px;padding:13px;border-radius:12px}
+.btn.sm{width:auto;padding:6px 12px;font-size:13px}.btn.del{background:var(--r)}
+h2.pg{margin:6px 0 12px}

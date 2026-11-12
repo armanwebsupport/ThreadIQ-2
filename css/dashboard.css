@@ -1,0 +1,18 @@
+.welcome{display:flex;justify-content:space-between;align-items:center;border-left:4px solid var(--cy)}
+.welcome h2{font-size:24px}.welcome .truck{font-size:64px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:12px 4px;text-align:center;border-bottom:3px solid var(--blue)}
+.stat .ic{font-size:24px}.stat b{display:block;font-size:26px}.stat span{font-size:12px;color:var(--mut)}
+.stat.red{border-bottom-color:var(--r)}.stat.red span,.stat.red b{color:var(--r)}.stat.grn{border-bottom-color:var(--g)}
+.health{display:flex;align-items:center;gap:14px}
+.gauge{--p:90;width:130px;height:130px;border-radius:50%;background:conic-gradient(var(--g) calc(var(--p)*1%),#12295a 0);display:grid;place-items:center;flex-shrink:0}
+.gauge div{width:98px;height:98px;border-radius:50%;background:var(--card);display:grid;place-items:center;text-align:center;font-size:12px;color:var(--mut)}
+.gauge b{font-size:26px;color:#fff;display:block}
+.legend{flex:1}.legend p{display:flex;justify-content:space-between;padding:6px 0;font-size:14px}
+.dot{display:inline-block;width:12px;height:12px;border-radius:50%;margin-right:8px}
+.actions{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px}
+.actions button{background:var(--card);border:1px solid var(--line);border-radius:14px;color:#fff;padding:12px 2px;font-size:12px;font-weight:600}
+.actions button i{display:block;font-style:normal;font-size:26px;margin-bottom:4px}
+.fleet{display:flex;align-items:center;gap:12px}.fleet .truck{font-size:56px}
+.plate{background:#3a5a8a;padding:2px 8px;border-radius:6px;font-size:12px}
+.link{color:var(--cy);font-size:14px;float:right;cursor:pointer}

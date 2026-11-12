@@ -1,0 +1,24 @@
+:root{--bg:#040b1d;--card:#0a1a3a;--line:#1b3a73;--txt:#fff;--mut:#8fa3c7;--blue:#1e90ff;--cy:#22d3ee;--g:#22e58a;--y:#facc15;--r:#ef4444}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
+html,body{background:var(--bg);color:var(--txt);font-family:system-ui,-apple-system,Roboto,sans-serif}
+body{padding-top:env(safe-area-inset-top);padding-bottom:calc(76px + env(safe-area-inset-bottom))}
+.top{display:flex;justify-content:space-between;align-items:center;padding:14px 16px}
+.brand{display:flex;gap:10px;align-items:center}
+h1{font-size:28px}h1 span{color:var(--blue)}small{color:var(--mut)}
+.top-r{display:flex;gap:10px}
+.bell,.avatar{position:relative;width:42px;height:42px;border-radius:50%;border:2px solid var(--line);background:var(--card);color:#fff;font-size:18px}
+.bell b{position:absolute;top:-4px;right:-4px;background:var(--r);border-radius:50%;width:18px;height:18px;font-size:11px;line-height:18px}
+main{padding:0 14px}
+.card{background:linear-gradient(160deg,#0d2250,#08153a);border:1px solid var(--line);border-radius:18px;padding:14px;margin-bottom:14px}
+.card h3{margin-bottom:10px;font-size:17px}
+.bottom{position:fixed;left:0;right:0;bottom:0;display:flex;background:#071333;border-top:1px solid var(--line);padding:8px 4px calc(8px + env(safe-area-inset-bottom))}
+.bottom button{flex:1;background:none;border:0;color:var(--mut);font-size:12px;display:flex;flex-direction:column;align-items:center;gap:2px}
+.bottom button i{font-style:normal;font-size:22px}
+.bottom button.on{color:var(--cy)}
+#toast{position:fixed;left:50%;bottom:100px;transform:translateX(-50%);background:var(--blue);padding:10px 18px;border-radius:20px;opacity:0;transition:.3s;pointer-events:none;z-index:9}
+#toast.show{opacity:1}
+.row{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid #15305f}
+.row:last-child{border:0}
+.tag{padding:3px 10px;border-radius:12px;font-size:12px;font-weight:600}
+.healthy{background:#0f5a3a;color:var(--g)}.attention{background:#5a4a0f;color:var(--y)}.critical{background:#5a1414;color:var(--r)}
+.bar{height:10px;border-radius:6px;background:#12295a;overflow:hidden;margin:4px 0 10px}.bar i{display:block;height:100%}
